@@ -107,6 +107,8 @@ footer{
 	background-color: #4b5320;
 	margin-top: 20px;
 }
-.foto.size{
-	
+
+.foto-size{
+	width: 50px;	
+	margin-top: 10px;
 }
