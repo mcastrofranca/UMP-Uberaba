@@ -1,0 +1,81 @@
+header{
+	background-color: #4b5320;
+}
+
+header h1{
+	font-size: 45px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.cabecalho{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 50px;
+	right: 20px;	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+nav li{
+	font-size:25px;
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+.culto{
+	width: 100%;
+}
+
+main li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+main li:hover .informacoes{
+	font-size: 25px;
+}
+
+main li:hover .destaque{
+	display: block;
+}
+
+.definicoes{
+	width: 100%;
+}
+
+.informacoes{
+	font-size: 20px;
+	text-align: center;
+}
+.destaque{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24px;
+	display: none;
+}
+footer{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	background-color: #4b5320;
+}
